@@ -1,0 +1,19 @@
+
+.home-page-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.home-page-div .timing-info-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-page-div div+div{
+    margin-top: 20px;
+}
